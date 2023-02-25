@@ -3,18 +3,18 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 技术能量站
+title: 试剑江湖
 # subtitle: ''
 description: 魏小伟_技术博客
-keywords: Java半颗糖,小伟博客,半颗糖_技术博客,魏小伟
-author: 技术能量站
+keywords: 试剑江湖,小伟博客,半颗糖_技术博客,魏小伟
+author: 试剑江湖
 language: zh-Hans
 timezone: Asia/Shanghai
 
 # 配置博客路径
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://iswxw.gitee.io/
+url: http://iswxw.github.io/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -105,10 +105,10 @@ theme: yilia-plus
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repository: git@gitee.com:iswxw/iswxw.git
+  repository: git@github.com:iswxw/iswxw.github.io.git
   email: 1550518923@qq.com
   name: weixiaowei
-  branch: master
+  branch: web_page
   message: update_blog
 
 jsonContent:
