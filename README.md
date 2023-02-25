@@ -8,7 +8,7 @@
 
 ### 项目文档
 
-- 在线预览：[https://blog.wxw.plus](https://iswxw.gitee.io/) 
+- 在线预览：[https://blog.wxw.plus](https://iswxw.github.io/) 
 - 搭建教程：[传送门](https://blog.csdn.net/qq_41893274/article/details/104684151) 
 
 ### 项目介绍
