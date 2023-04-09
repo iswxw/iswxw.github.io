@@ -43,5 +43,5 @@ hexo g
 hexo d 
 
 # 4. push 到指定仓库
-git push git@github.com:iswxw/iswxw_source.git main
+git push git@github.com:iswxw/iswxw.github.io.git main
 ```
