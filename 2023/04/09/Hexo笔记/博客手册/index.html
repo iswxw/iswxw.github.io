@@ -20,9 +20,9 @@
 <meta property="og:image" content="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/0aa2979848ff48ca87a887152699690c~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp">
 <meta property="og:image" content="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/5a65e3073eac44c69107a9bd719a6a87~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp">
 <meta property="og:image" content="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/d47bb8e27c9c447bb12b5a1d6fc571af~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp">
-<meta property="og:image" content="https://gitee.com/iswxw/image/raw/master/20230409/cpHSApbUpElX.png">
+<meta property="og:image" content="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/deb9c334259d40c29ec39e7901c428de~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp">
 <meta property="article:published_time" content="2023-04-09T15:30:59.000Z">
-<meta property="article:modified_time" content="2023-04-09T09:07:29.913Z">
+<meta property="article:modified_time" content="2023-04-09T09:17:13.894Z">
 <meta property="article:author" content="试剑江湖">
 <meta property="article:tag" content="入门">
 <meta name="twitter:card" content="summary">
@@ -541,7 +541,7 @@
 </blockquote>
 <p>通过运行 <code>docsify serve .</code> 启动一个本地服务器，这里的点就是当前目录的意思，可以方便地实时预览效果。默认访问地址 <a target="_blank" rel="noopener" href="http://localhost:3000/">http://localhost:3000</a> 。也可以用-p指定端口。</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docsify serve -p 80 .</span><br></pre></td></tr></table></figure>
-<p><img src="https://gitee.com/iswxw/image/raw/master/20230409/cpHSApbUpElX.png"></p>
+<p><img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/deb9c334259d40c29ec39e7901c428de~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp" alt="as"></p>
 <blockquote>
 <p>Loading 提示</p>
 </blockquote>
@@ -555,7 +555,10 @@
 <li><a target="_blank" rel="noopener" href="https://blog.csdn.net/liyou123456789/article/details/124504727">工具docsify详解</a></li>
 </ol>
 <h2 id="五、基于hexo实现"><a href="#五、基于hexo实现" class="headerlink" title="五、基于hexo实现"></a>五、基于hexo实现</h2><h3 id="1-1-简述-4"><a href="#1-1-简述-4" class="headerlink" title="1.1 简述"></a>1.1 简述</h3><p><a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/">Hexo</a> 是基于NodeJs的静态博客框架，简单、轻量，它生成的静态站点可以托管在Github和Gitee上。Hexo还支持MarkDown语法，是很多程序猿的福音，它可以一键部署，支持超多插件，拥有超多主题，是个不错的选择。</p>
-<p>博客主页：<a href="https://iswxw.github.io/">https://iswxw.github.io/</a><br>博客源码：<a target="_blank" rel="noopener" href="https://github.com/iswxw/iswxw.github.io">https://github.com/iswxw/iswxw.github.io</a></p>
+<ul>
+<li>博客主页：<a href="https://iswxw.github.io/">https://iswxw.github.io/</a></li>
+<li>博客源码：<a target="_blank" rel="noopener" href="https://github.com/iswxw/iswxw.github.io">https://github.com/iswxw/iswxw.github.io</a></li>
+</ul>
 <h3 id="1-2-环境准备-4"><a href="#1-2-环境准备-4" class="headerlink" title="1.2 环境准备"></a>1.2 环境准备</h3><p>因为hexo是基于NodeJs的，所以需要安装NodeJs。</p>
 <p>去NodeJs官网下载长期支持版，然后打开安装程序，安装选项全部默认，一路点击Next。安装好了之后，打开cmd输入<code>node -v</code>，如果显示的是下载的版本号那就是安装成功了。</p>
 <p>安装hexo</p>
@@ -579,8 +582,6 @@
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 1. 请求历史文件</span></span><br><span class="line">hexo clean</span><br><span class="line"></span><br><span class="line"><span class="comment"># 2. 生成静态页面</span></span><br><span class="line">hexo g</span><br><span class="line"></span><br><span class="line"><span class="comment"># 3. 发布本地服务</span></span><br><span class="line">hexo s</span><br></pre></td></tr></table></figure>
 <p>项目发布</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 1. 请求历史文件</span></span><br><span class="line">hexo clean</span><br><span class="line"></span><br><span class="line"><span class="comment"># 2. 生成静态页面</span></span><br><span class="line">hexo g</span><br><span class="line"></span><br><span class="line"><span class="comment"># 3. 发布 到码云 https://gitee.com/iswxw/iswxw.git</span></span><br><span class="line">hexo d </span><br><span class="line"></span><br><span class="line"><span class="comment"># 4. push 到指定仓库</span></span><br><span class="line">git push git@github.com:iswxw/iswxw.github.io.git main</span><br></pre></td></tr></table></figure>
-
-
 <h3 id="1-4-附件材料-4"><a href="#1-4-附件材料-4" class="headerlink" title="1.4 附件材料"></a>1.4 附件材料</h3><ol>
 <li><a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/">hexo官网</a> </li>
 <li><a target="_blank" rel="noopener" href="https://nodejs.org/en">node.js</a></li>
@@ -939,11 +940,11 @@
           <ul class="article-tag-list" q-show="showTags">
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">入门</a>
+                <a href="javascript:void(0)" class="js-tag color5">成长思考</a>
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">成长思考</a>
+                <a href="javascript:void(0)" class="js-tag color3">入门</a>
               </li>
             
             <div class="clearfix"></div>
